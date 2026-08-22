@@ -176,5 +176,24 @@ body {
 }
 
 
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column-reverse; 
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .hero-content h1 {
+        font-size: 2rem; 
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        width: 250px; 
+        margin-bottom: 20px;
+    }
+}
+
 
 
